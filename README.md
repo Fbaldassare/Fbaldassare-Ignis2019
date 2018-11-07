@@ -1,13 +1,13 @@
-## Fbaldassare-Ignis2019
+# Fbaldassare-Manos a la Obra
 Creación de plataforma responsive para proyectos de acción social.
 
-###Tema
+##Tema
 Acción Social
 
-###Nombre
-No definido aún.
+##Nombre
+No definido aún: Manos a la obra
 
-###Definición de layout (tipo de página).
+##Definición de layout (tipo de página).
 Comunidad
 
 ###Cliente e Intereses
@@ -32,12 +32,26 @@ Desarrollo de una plataforma participativa que busca mostrar y ayudar en cinco f
 
 ###Requerimientos del sitio layout home
 1. Sección 1: Barra de Navegación
-2. Sección 2: Buscador
-3. Sección 3: Sueños hechos realidad
-4. Sección 4: Desarrollamos sueños
-5. Sección 5: Registro
+2. Sección 2: Buscador de proyectos
+3. Sección 3: Iglesia Viva
+4. Sección 4: Creación de proyectos
+5. Sección 5: Ayuda YA
 6. Sección 6: Footer: Contacto
 
+###Sketch
+Landing desktop y movil
+- ![](Assets/mockup/mockup/desktop.jpg)
 ###Mockup
 1. Landing desktop
-![Alt text](Assets/mockup/mockup ignis_Mesa de trabajo 1.jpg "Title")
+   - ![](Assets/mockup/mockup/desktop.jpg)
+
+2. Langing movil
+   - ![](Assets/mockup/mockup/movil-1.jpg)
+   - ![](Assets/mockup/mockup/movil-menu.jpg)
+   - ![](Assets/mockup/mockup/movil-2.jpg)
+   - ![](Assets/mockup/mockup/movil-3.jpg)
+   - ![](Assets/mockup/mockup/movil-4.jpg)
+   - ![](Assets/mockup/mockup/movil-5.jpg)
+   - ![](Assets/mockup/mockup/movil-6.jpg)
+
+
