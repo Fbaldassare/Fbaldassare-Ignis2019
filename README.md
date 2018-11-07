@@ -38,17 +38,17 @@ Desarrollo de una plataforma participativa que busca mostrar y ayudar en cinco f
 5. Sección 5: Ayuda YA
 6. Sección 6: Footer: Contacto
 
-###Sketch
+### Sketch
 Landing desktop y movil
 - ![](Assets/mockup/mockup/desktop.jpg)
-###Mockup
+### Mockup
 1. Landing desktop
    - ![](Assets/mockup/mockup/desktop.jpg)
 
 2. Langing movil
-   - ![](Assets/mockup/mockup/movil-1.jpg)
-   - ![](Assets/mockup/mockup/movil-menu.jpg)
-   - ![](Assets/mockup/mockup/movil-2.jpg)
+ ![](Assets/mockup/mockup/movil-1.jpg)
+ ![](Assets/mockup/mockup/movil-menu.jpg)
+ ![](Assets/mockup/mockup/movil-2.jpg)
    - ![](Assets/mockup/mockup/movil-3.jpg)
    - ![](Assets/mockup/mockup/movil-4.jpg)
    - ![](Assets/mockup/mockup/movil-5.jpg)
