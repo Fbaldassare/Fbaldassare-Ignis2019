@@ -1,0 +1,53 @@
+
+h1{
+    font-size:60px;
+}
+.section-height{
+    height: 500px;
+}
+
+.color-white{
+    color: #ffffff
+}
+
+.color-yellow{
+    color: #fbb901
+}
+
+.color-cian{
+    color: #00a8b5
+}
+
+.color-purple{
+    color: #774898;
+}
+
+.color-violet{
+    color: #e62a76;
+}
+
+
+#buscador{
+    background-color: #fbb901;
+    height: 255px;
+}
+#iglesia-viva{
+   background-color: #ffffff;
+}
+
+#creacion-de-proyectos{
+    background-color: #fbb901;
+}
+#ayuda-ya{
+    background-color: #ffffff;
+}
+
+#unete{
+    background-color: #00a8b5;
+}
+
+#contacto{
+    background-color: #774898;
+}
+
+
