@@ -1,8 +1,4 @@
 
-
-.section-height{
-    height: 500px;
-}
 /* color */
 .color-white{
     color: #ffffff
@@ -29,6 +25,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Ubuntu';
 }
 
+
 a:hover{
     text-decoration: none;
 }
@@ -36,9 +33,11 @@ a:hover{
 ul{
     list-style: none;
 }
+
 .container-fluid{
     margin-left: 160px;
 }
+
 /* menu */
 .sidenav {
     height: 100%;
@@ -50,11 +49,13 @@ ul{
     overflow-x: hidden;
     background-color: #774898;
 }
+
 .sidenav-brand{
     background-color: white;
     height: 166px;
     padding-top:30px;
 }
+
 .sidenav a {
     padding: 4px 12px 4px 12px;
     text-decoration: none;
@@ -79,8 +80,6 @@ ul{
     height:100px;
     border-radius: 50%;
     border-color:white;
-       
-
 }
 
 .text_vertical-rotate{
@@ -113,4 +112,101 @@ ul{
     background-color: #774898;
 }
 
+/* Creación de Proyectos */
+.crear-proyectos_font ul{
+    margin-top: 20px;
+}
+.crear-proyectos_font ul li a{
+    font-family: 'Libre Baskerville', serif;
+    line-height: 20pt;
+    color:black
+}
 
+.nuevo-proyecto h1{
+    font-family: 'Libre Baskerville', serif;
+}
+.nuevo-proyecto h5{
+    font-weight: ;
+}
+
+.nuevo-proyecto h5{
+    text-align: right;
+}
+
+.nuevo-proyecto p{
+    padding: 30px 0 30px 30px;
+    font-size: 16px;    
+}
+
+/* buscador*/
+.form-control{
+    background-color: initial;
+    color: #774898;
+    border:none;
+    border-left: 1px solid white;
+    border-radius: initial;
+    box-shadow: initial;
+    padding-left:1px;
+}
+
+.navbar-form .form-control{
+    width: 300px;
+}
+
+#buscador h1{
+    font-size: 75px;
+}
+
+#buscador h4{
+    padding-left: 100px;
+}
+
+#buscador h1{
+    font-size: 75px;
+}
+
+/* Ayuda Ya*/
+.ayuda-ya_thumbnail_img_km, .iglesia-viva_thumbnail_img_km{
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+    text-align: right;
+    border-radius: 50%;
+    float: right;
+    z-index: 1;
+    position: absolute;
+}
+
+.img_circle{
+    border-radius: 50%;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.img_circle_color-violet{
+    border-color: #e62a76
+}
+.img_circle_color-cian{
+    border-color: #00a8b5
+}
+.ayuda-ya_thumbnail, .iglesia-viva_thumbnail {
+    text-align: center;
+    height: 280px;
+    margin: 30px 0 15px 0;
+}
+
+.ayuda-ya_thumbnail h4{
+    color:#e62a76;
+}
+
+.ayuda-ya_thumbnail_img_km p{
+    color: #e62a76
+}
+
+.iglesia-viva_thumbnail_img_km p{
+    color: #00a8b5;
+}
+
+.iglesia-viva_thumbnail h4{
+    color: #00a8b5
+}
