@@ -1,11 +1,9 @@
 
-h1{
-    font-size:60px;
-}
+
 .section-height{
     height: 500px;
 }
-
+/* color */
 .color-white{
     color: #ffffff
 }
@@ -26,6 +24,16 @@ h1{
     color: #e62a76;
 }
 
+/* text */
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Ubuntu';
+}
+
+
+.text_vertical-rotate{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
 
 #buscador{
     background-color: #fbb901;
