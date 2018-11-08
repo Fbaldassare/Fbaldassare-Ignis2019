@@ -29,6 +29,59 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Ubuntu';
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.container-fluid{
+    margin-left: 160px;
+}
+/* menu */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #774898;
+}
+.sidenav-brand{
+    background-color: white;
+    height: 166px;
+    padding-top:30px;
+}
+.sidenav a {
+    padding: 4px 12px 4px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+}
+
+.sidenav-menu_botton{
+    position: relative;
+}
+
+.profile-avatar_img{
+    background-image: url('../images/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 130px;
+    margin-left:33px;
+    margin-right:33px;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border-color:white;
+       
+
+}
 
 .text_vertical-rotate{
     writing-mode: vertical-lr;
@@ -39,6 +92,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     background-color: #fbb901;
     height: 255px;
 }
+
 #iglesia-viva{
    background-color: #ffffff;
 }
@@ -46,6 +100,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 #creacion-de-proyectos{
     background-color: #fbb901;
 }
+
 #ayuda-ya{
     background-color: #ffffff;
 }
