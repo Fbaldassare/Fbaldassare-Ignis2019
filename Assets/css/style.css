@@ -143,6 +143,9 @@ ul{
 }
 
 /* buscador*/
+.form-buscador .form-control{
+    margin-top: 25px;
+}
 .form-control{
     background-color: initial;
     color: #774898;
@@ -153,9 +156,12 @@ ul{
     box-shadow: initial;
     padding-left:1px;
 }
-
+.btn .btn-default ...{
+    display: block;
+    background-color: #00a8b5
+}
 .navbar-form .form-control{
-    width: 300px;
+    width: 400px;
 }
 
 .form-control{
@@ -166,11 +172,12 @@ ul{
 }
 
 #buscador h4{
-    padding-left: 100px;
+    text-align: right;
 }
 
 #buscador h1{
-    font-size: 75px;
+    font-size: 55px;
+    text-align: right;
 }
 
 /* Ayuda Ya*/
