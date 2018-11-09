@@ -57,7 +57,7 @@ ul{
 }
 
 .sidenav a {
-    padding: 4px 12px 4px 12px;
+    padding: 6px 12px 6px 12px;
     text-decoration: none;
     font-size: 14px;
     color: white;
@@ -73,21 +73,42 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 80px;
-    margin-left:33px;
-    margin-right:33px;
-    width: 100px;
-    height:100px;
+   margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width:60px;
+    height:60px;
     border-radius: 50%;
     border-color:white;
 }
+.sidenav-menu_top a:hover{
 
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 30px;
+    transition: 1s;
+    
+}
+.active{
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 30px;
+}
+
+.sidenav-menu_botton a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 30px;
+    transition: 1s;
+}
+
+/*títulos de sección*/
 .text_vertical-rotate{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     margin-left: 35px;
 }
 
+/* fondos para cad sección */
 #buscador{
     background-color: #fbb901;
 }
@@ -153,22 +174,8 @@ ul{
     font-size: 16px;    
 }
 
-/*formularios*/
-.form-buscador .form-control{
-    margin-top: 25px;
-}
-.form-control{
-    background-color: initial;
-    color: #774898;
-    border:none;
-    border-left: 1px solid white;
-    border-radius: initial;
-    border-bottom-left-radius: 2px;
-    box-shadow: initial;
-    padding-left:1px;
-}
 
-/*botones */
+/*botones y formularios*/
 .btn{
     font-weight: 700;
     font-size: 20px;
@@ -203,16 +210,22 @@ button:hover{
 .navbar-form .form-control h6{ 
     display: block !important;
 }
+.form-buscador .form-control{
+    margin-top: 25px;
+}
 
 .form-control{
+    background-color: initial;
     color:white;
+    border:none;
+    border-left: 1px solid white;
+    border-radius: initial;
+    border-bottom-left-radius: 2px;
+    box-shadow: initial;
+    padding-left:1px;
 }
 
 /* Buscador */
-#buscador h1{
-    font-size: 75px;
-}
-
 #buscador h4{
     text-align: right;
 }
@@ -301,24 +314,51 @@ footer .form-group{
 }
 
 @media screen and (max-width: 992px){
-    .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
-        max-height: 250px;
-        margin-bottom: 25px;
-    }
-    .sidenav{
-        float: left;
-        left: -150px;;
-        z-index: 999;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
     .container-fluid{
         margin-left: 0px;
     }
+    
+    /* menu */
+    .sidenav{
+        float: left;
+        left: -155px;;
+        z-index: 999;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 1px solid white;
+        width: 200;
+    }
+
     .sidenav:hover{
         left:0px;;
         transition: 0.5s;
     }
+
+    .sidenav-brand{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: initial;
+        height: auto;
+    }
+    
+    /* buscador */
+    #buscador h1{
+        text-align: left
+    }
+
+    /* títulos sección */
+    .text_vertical-rotate{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin-left: 0px;
+    }
+
+    /* thumbnails */
+    .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
+        max-height: 250px;
+        margin-bottom: 25px;
+    }
+   
 }
 
 @media screen and (max-width: 768px){
@@ -326,21 +366,18 @@ footer .form-group{
         font-size: 21px;
     }
     
+    #buscador h1{
+        text-align: left
+    }
     .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
-        height: initial;
-        padding-bottom: 10px;
-        max-height: initial
+        max-height: 250px;
+        min-height: 200px;
         
     }
 
-    .iglesia-viva_thumbnail_img_km{
-        height: 30px;
-        width: 30px;
-        margin-bottom: 5px
-    }
 
     .iglesia-viva_thumbnail_img_km P {
-        margin-top: 5px;
+        margin-top: 15px;
     }
          
     /*títulos */
