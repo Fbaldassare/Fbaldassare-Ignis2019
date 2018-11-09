@@ -73,7 +73,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 130px;
+    margin-top: 80px;
     margin-left:33px;
     margin-right:33px;
     width: 100px;
@@ -90,7 +90,6 @@ ul{
 
 #buscador{
     background-color: #fbb901;
-    height: 255px;
 }
 
 #iglesia-viva{
@@ -154,7 +153,7 @@ ul{
     font-size: 16px;    
 }
 
-/* buscador*/
+/*formularios*/
 .form-buscador .form-control{
     margin-top: 25px;
 }
@@ -168,6 +167,8 @@ ul{
     box-shadow: initial;
     padding-left:1px;
 }
+
+/*botones */
 .btn{
     font-weight: 700;
     font-size: 20px;
@@ -195,15 +196,19 @@ button, button:hover {
 button:hover{
     color: #fbb901;
 }
+.navbar-group{
+    width: 100%;
+}
 
-
-.navbar-form .form-control{
-    width: 400px;
+.navbar-form .form-control h6{ 
+    display: block !important;
 }
 
 .form-control{
     color:white;
 }
+
+/* Buscador */
 #buscador h1{
     font-size: 75px;
 }
@@ -293,4 +298,54 @@ footer .form-group{
 .mensaje-grande{
     font-size: 50px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 992px){
+    .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
+        max-height: 250px;
+        margin-bottom: 25px;
+    }
+    .sidenav{
+        float: left;
+        left: -150px;;
+        z-index: 999;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .container-fluid{
+        margin-left: 0px;
+    }
+    .sidenav:hover{
+        left:0px;;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h2{
+        font-size: 21px;
+    }
+    
+    .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
+        height: initial;
+        padding-bottom: 10px;
+        max-height: initial
+        
+    }
+
+    .iglesia-viva_thumbnail_img_km{
+        height: 30px;
+        width: 30px;
+        margin-bottom: 5px
+    }
+
+    .iglesia-viva_thumbnail_img_km P {
+        margin-top: 5px;
+    }
+         
+    /*títulos */
+    .text_vertical-rotate{
+        font-size:30px;
+        margin-left: 0px;
+    }
 }
