@@ -1,8 +1,8 @@
 # Fbaldassare-Manos a la Obra
-Creación de plataforma responsive para proyectos de acción social.
+Creación de plataforma responsive para proyectos de acción social - católica.
 
 ##Tema
-Acción Social
+Acción Social - católica
 
 ##Nombre
 No definido aún: Manos a la obra
@@ -11,8 +11,8 @@ No definido aún: Manos a la obra
 Comunidad
 
 ###Cliente e Intereses
-**Matías Rodríguez **
-Matías Rodríguez es un joven de 29 años, amante de la acción social y que tiene el deseo de poder desarrollar una plataforma que reúna los diferentes proyectos de acción social que se realizan o se busca realizar en el país. En esta debe haber las siguientes interacciones: 
+- Matías Rodríguez
+Matías Rodríguez es un joven de 29 años, amante de la acción social y que tiene el deseo de poder desarrollar una plataforma que reúna los diferentes proyectos de acción social católica que se realizan en el país. En esta debe haber las siguientes interacciones: 
 - más los usuarios puedan interactuar con estos en su etapa de producción.
 - Interacturar en su etapa de desarrollo.
 - También pide que debe ser un sitio responsive, que sea muy vivo: y que muestre la vida de los diferentes proyectos que se están llevando a cabo
@@ -54,4 +54,48 @@ Landing desktop y movil
    - ![](Assets/mockup/mockup/movil-5.jpg)
    - ![](Assets/mockup/mockup/movil-6.jpg)
 
+##Estilos
+
+    ### Headers:
+
+    h1 sección: font-size: 36px;
+    h1 contacto: font-size: 40px;
+    h2 subtítulo secciones: 30px;
+
+    ###  colores:
+    - #00a8b5 Calipso
+    - #774898 Morado
+    - #e62a76 Violeta
+    - #fbb901 Amarillo
+
+    ###Tipografía:
+    - Para los títulos de los proyectos en creación se usa  Libre Baskerville; todo el resto del sitio usa Ubuntu.
+
+    ###Thumbnails:
+    - km: font-size 14px;  font-weight: 700;
+    - Título h4: font-size 18px;  font-weight: 500;
+    - Fundación o movimiento: font-size 14px;
+
+    ###Creación de Proyectos
+    - indice: font-size 14px;  line-height:20pt; font-family: Libre Baskerville;
+    - Título de documento h1: font-size 36px;  font-family: Libre Baskerville;
+    - Fecha h5: font-size 14px;  font-family: Ubuntu;
+    - Tags h4: font-size 18px;  font-family: Ubuntu;
+    - Descripción de proyecto p: font-size 16px;  font-family: Ubuntu;
+
+    ###Botones
+    - letras blancas, lineas blancas, y sin fondo.
+    - font-size 20px;  font-weight: 700; font-family: Ubuntu;
+    - ancho 100%.
+
+    ###span
+    - letras agrandadas: font-size: 50px; font-weight: 700;
+    
+    ###formularios
+    - Borde lateral izquierdo : 1px solid white;
+    - letras interiores: color:white;
+    - Ancho 100%.
+    
+    
+    
 

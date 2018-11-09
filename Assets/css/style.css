@@ -86,7 +86,7 @@ ul{
 
     background-color: rgba(255, 255, 255, 0.1);
     border-bottom-right-radius: 30px;
-    transition: 1s;
+    transition: 0.3s;
     
 }
 .active{
@@ -98,7 +98,7 @@ ul{
 .sidenav-menu_botton a:hover{
     background-color: rgba(255, 255, 255, 0.1);
     border-bottom-right-radius: 30px;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 /*títulos de sección*/
@@ -231,7 +231,7 @@ button:hover{
 }
 
 #buscador h1{
-    font-size: 55px;
+    font-size: 40px;
     text-align: right;
 }
 
@@ -294,6 +294,15 @@ button:hover{
     background-color: #00a8b5;
 
 }
+.ayuda-ya_thumbnail h4:hover, .iglesia-viva_thumbnail h4:hover, .ayuda-ya_thumbnail a:hover, .iglesia-viva_thumbnail a:hover{
+    color: #fbb901;
+}
+
+.img_circle_color-violet:hover, .img_circle_color-cian:hover{
+    border: 2px solid #fbb901;
+    transition: 0.3s;
+}
+
 /* Únete*/
 
 
@@ -366,16 +375,19 @@ footer .form-group{
         font-size: 21px;
     }
     
+    #buscador h4{
+        text-align: center
+    }
     #buscador h1{
-        text-align: left
+        text-align: center;
+        font-size:40px;
     }
     .ayuda-ya_thumbnail, .iglesia-viva_thumbnail{
-        max-height: 250px;
-        min-height: 200px;
-        
+        height: 250px;
+        margin-top:0px;
+        margin-bottom:0px;        
     }
-
-
+    
     .iglesia-viva_thumbnail_img_km P {
         margin-top: 15px;
     }
@@ -383,6 +395,6 @@ footer .form-group{
     /*títulos */
     .text_vertical-rotate{
         font-size:30px;
-        margin-left: 0px;
+        margin-left: -15px;
     }
 }
