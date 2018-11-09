@@ -161,9 +161,6 @@ ul{
 .nuevo-proyecto h1{
     font-family: 'Libre Baskerville', serif;
 }
-.nuevo-proyecto h5{
-    font-weight: ;
-}
 
 .nuevo-proyecto h5{
     text-align: right;
@@ -277,9 +274,7 @@ button:hover{
 .ayuda-ya_thumbnail_img_km p{
     color: #e62a76
 }
-.iglesia-viva_thumbnail:hover{
 
-}
 .iglesia-viva_thumbnail_img_km p{
     color: #00a8b5;
 }
