@@ -85,6 +85,7 @@ ul{
 .text_vertical-rotate{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    margin-left: 35px;
 }
 
 #buscador{
@@ -117,6 +118,17 @@ ul{
 }
 
 /* Creación de Proyectos */
+.crear-proyectos_font ul li a.active{
+    color: white;
+    padding-left:30px;
+}
+
+.crear-proyectos_font ul li a:hover{
+    transition-duration: 1s;
+    color: gray;
+    padding-left:30px;
+}
+
 .crear-proyectos_font ul{
     margin-top: 20px;
 }
@@ -156,10 +168,35 @@ ul{
     box-shadow: initial;
     padding-left:1px;
 }
-.btn .btn-default ...{
+.btn{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 0;
     display: block;
-    background-color: #00a8b5
+    background-color: initial;
+    border: 1px solid white;
+    width:100%
 }
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: initial;
+    color: #e62a76;
+    border: 1px solid #e62a76
+}
+
+button, button:hover {
+    background-color:initial;
+    border: initial;
+    font-family: 'Ubuntu';
+}
+
+button:hover{
+    color: #fbb901;
+}
+
+
 .navbar-form .form-control{
     width: 400px;
 }
@@ -197,6 +234,7 @@ ul{
 }
 
 .img_circle{
+    width: 90%;
     border-radius: 50%;
     border: 2px solid;
     box-sizing: border-box;
@@ -221,7 +259,9 @@ ul{
 .ayuda-ya_thumbnail_img_km p{
     color: #e62a76
 }
+.iglesia-viva_thumbnail:hover{
 
+}
 .iglesia-viva_thumbnail_img_km p{
     color: #00a8b5;
 }
@@ -229,14 +269,16 @@ ul{
 .iglesia-viva_thumbnail h4{
     color: #00a8b5
 }
+.circle{
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: #00a8b5;
 
+}
 /* Únete*/
 
-button{
-    background-color: initial;
-    border:initial;
-    display: inline-block;
-}
+
 #vertical-line{
     height: 100px;
     margin: 30px;
@@ -252,5 +294,3 @@ footer .form-group{
     font-size: 50px;
     font-weight: 700;
 }
-
-
