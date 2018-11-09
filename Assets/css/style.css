@@ -98,18 +98,22 @@ ul{
 
 #creacion-de-proyectos{
     background-color: #fbb901;
+    padding-bottom: 50px;
 }
 
 #ayuda-ya{
     background-color: #ffffff;
+    padding-bottom: 50px;
 }
 
 #unete{
     background-color: #00a8b5;
+    padding-bottom: 50px;
 }
 
 #contacto{
     background-color: #774898;
+    padding-bottom: 50px;
 }
 
 /* Creación de Proyectos */
@@ -145,6 +149,7 @@ ul{
     border:none;
     border-left: 1px solid white;
     border-radius: initial;
+    border-bottom-left-radius: 2px;
     box-shadow: initial;
     padding-left:1px;
 }
@@ -153,6 +158,9 @@ ul{
     width: 300px;
 }
 
+.form-control{
+    color:white;
+}
 #buscador h1{
     font-size: 75px;
 }
@@ -167,14 +175,18 @@ ul{
 
 /* Ayuda Ya*/
 .ayuda-ya_thumbnail_img_km, .iglesia-viva_thumbnail_img_km{
-    padding: 10px;
+    font-weight: 700;
+    height: 50px;
+    width: 50PX;
     background-color: white;
     display: inline-block;
-    text-align: right;
     border-radius: 50%;
-    float: right;
     z-index: 1;
     position: absolute;
+}
+
+.ayuda-ya_thumbnail_img_km P, .iglesia-viva_thumbnail_img_km P{
+    margin-top: 15px;
 }
 
 .img_circle{
@@ -210,3 +222,28 @@ ul{
 .iglesia-viva_thumbnail h4{
     color: #00a8b5
 }
+
+/* Únete*/
+
+button{
+    background-color: initial;
+    border:initial;
+    display: inline-block;
+}
+#vertical-line{
+    height: 100px;
+    margin: 30px;
+    border-left: 1px solid white;
+    display: inline-block;
+}
+/* footer */
+footer .form-group{
+    margin-top: 20px;
+}
+
+.mensaje-grande{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
