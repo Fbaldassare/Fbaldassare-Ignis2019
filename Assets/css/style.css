@@ -51,7 +51,6 @@ ul{
 }
 
 .sidenav-brand{
-    background-color: white;
     height: 166px;
     padding-top:30px;
 }
@@ -298,6 +297,39 @@ button:hover{
     transition: 0.3s;
 }
 
+/*proyectos*/
+.container-proyect{
+    height: 200px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container-proyect-thumbnail{
+    height: 145px;
+    width: 145px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.button-pin{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    float: right;
+    margin-top:15px;
+}
+.button-down{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    float: right;
+    margin-bottom:15px;
+}
+
 /* Únete*/
 
 
@@ -325,7 +357,7 @@ footer .form-group{
     /* menu */
     .sidenav{
         float: left;
-        left: -155px;;
+        left: -152px;;
         z-index: 999;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
