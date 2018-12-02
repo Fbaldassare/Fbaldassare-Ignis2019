@@ -25,6 +25,20 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Ubuntu';
 }
 
+.margin-top-small{
+    margin-top: 15px;
+}
+
+.margin-top-medium{
+    margin-top: 25px;
+}
+
+.margin-top-regular{
+    margin-top: 35px;
+}
+.margin-top-large{
+    margin-top: 45px;
+}
 
 a:hover{
     text-decoration: none;
@@ -72,7 +86,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   margin-left:auto;
+    margin-left:auto;
     margin-right:auto;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -219,6 +233,12 @@ button:hover{
     border-bottom-left-radius: 2px;
     box-shadow: initial;
     padding-left:1px;
+}
+/* font awesome*/
+.fa-users, .fa-hand-holding-usd, .fa-brain, .fa-envelope{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
 }
 
 /* Buscador */
