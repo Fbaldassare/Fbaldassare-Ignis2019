@@ -220,6 +220,7 @@ button:hover{
 .navbar-form .form-control h6{ 
     display: block !important;
 }
+
 .form-buscador .form-control{
     margin-top: 25px;
 }
@@ -228,17 +229,22 @@ button:hover{
     background-color: initial;
     color:white;
     border:none;
-    border-left: 1px solid white;
-    border-radius: initial;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
     border-bottom-left-radius: 2px;
     box-shadow: initial;
     padding-left:1px;
 }
+
 /* font awesome*/
 .fa-users, .fa-hand-holding-usd, .fa-brain, .fa-envelope{
     position: relative;
     text-align: center;
     font-size: 60px;
+}
+
+.fa-readme, .fa-paperclip{
+    text-align: center;
 }
 
 /* Buscador */
@@ -319,7 +325,7 @@ button:hover{
 
 /*proyectos*/
 .container-proyect{
-    height: 200px;
+
     width: 100%;
     border: 1px solid white;
     border-radius: 5px;
