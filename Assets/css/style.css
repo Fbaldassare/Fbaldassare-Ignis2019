@@ -19,6 +19,7 @@
 .color-violet{
     color: #e62a76;
 }
+/*Position*/
 
 /* text */
 h1, h2, h3, h4, h5, h6, p, a{
@@ -113,6 +114,51 @@ ul{
     border-bottom-right-radius: 30px;
     transition: 0.3s;
 }
+/*Galería de imágenes*/
+.img-thumbnail-full-col{
+width: 100%;
+height: 70vh;
+background-image: url('../images/renacamasalto/DSC_0925.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center 0px;
+}
+
+.img-thumbnail-col-25{
+width: 25%;
+height: 10vh;
+float: left;
+overflow: hidden;
+}
+
+.img-thumbnail-col-25 img{
+    width: 120px;
+}
+/*Fixer bar*/
+.fixed-bar-2{
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+}
+/*Formas de ayudar*/
+.forma-de-ayudar{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #fac534;
+    border-radius: 5px;
+    background-color: #fac534;
+}
+
+.quiero-participar{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #fac534;
+    border-radius: 5px;
+    background-color: #fac534;
+}
+
+
 
 /*títulos de sección*/
 .text_vertical-rotate{
@@ -138,6 +184,10 @@ ul{
 #ayuda-ya{
     background-color: #ffffff;
     padding-bottom: 50px;
+}
+
+.ayuda-ya-fundacion{
+background-color: #e62a76;
 }
 
 #unete{
