@@ -157,7 +157,18 @@ position: -webkit-sticky;
     border-radius: 5px;
     background-color: #fac534;
 }
-
+/* Formulario para participar pop up*/
+.form-pop-up{
+    width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
 
 
 /*títulos de sección*/
@@ -390,18 +401,10 @@ button:hover{
     margin-bottom: auto;
 }
 .button-pin{
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    border-radius: 50%;
     float: right;
     margin-top:15px;
 }
 .button-down{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
     float: right;
     margin-bottom:15px;
 }
@@ -470,6 +473,10 @@ footer .form-group{
         max-height: 250px;
         margin-bottom: 25px;
     }
+
+    .img_circle{
+        width: 60%;
+    }
    
 }
 
@@ -494,7 +501,11 @@ footer .form-group{
     .iglesia-viva_thumbnail_img_km P {
         margin-top: 15px;
     }
-         
+    
+    #vertical-line{
+        margin:0px;
+    }
+
     /*títulos */
     .text_vertical-rotate{
         font-size:30px;
